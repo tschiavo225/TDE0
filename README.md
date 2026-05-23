@@ -59,7 +59,7 @@ Para compilar e executar o projeto, é necessário ter:
 Para compilar o programa, execute o comando abaixo na raiz do projeto:
 
 ```bash
-gcc main.c -o citylivinglab
+gcc -pthread main.c -o citylivinglab
 ```
 
 Esse comando gera o executável chamado:
